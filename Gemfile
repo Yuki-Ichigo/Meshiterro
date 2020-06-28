@@ -63,3 +63,5 @@ gem 'tzinfo-date', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # ofiginal
 gem 'devise'
+gem "refile", require: "refile/rails", github: 'manfe/refile'
+gem "refile-mini_magick"
